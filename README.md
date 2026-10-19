@@ -78,7 +78,7 @@ hal/
   screenshot_picocalc.c   ST7789 GRAM read-back -> 24-bit BMP on SD
   screenshot_sdl.c        stand-in buffer      -> 24-bit BMP beside the exe
 third_party/
-  picocalc-text-starter-main/   vendored, read-only except one small fix in drivers/fat32.c (picocalc target only)
+  picocalc-text-starter-main/   vendored, read-only: Blair's code of 2026-10-18 plus four small fixes in drivers/fat32.c, sdcard.c and lcd.c (picocalc target only)
 ```
 
 The HAL contract (rendering model, input event shape, audio, timing) is
